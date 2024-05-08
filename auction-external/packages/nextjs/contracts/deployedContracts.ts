@@ -5,7 +5,7 @@
 import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 
 const deployedContracts = {
-  31337: {
+  5678: {
     OlyCrypto: {
       address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
       abi: [
