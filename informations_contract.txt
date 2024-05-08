@@ -1,0 +1,3 @@
+0x909B6493633dc8b466434A3076b6eC0C369AFc38
+
+https://tanssi-evmexplorer.netlify.app/tx/0xb4cdfcc23cbe444ef81941305576a38025bfe9bee01714bb4136d35e76dcca6e?network=Dancebox%20EVM%20ContainerChain
