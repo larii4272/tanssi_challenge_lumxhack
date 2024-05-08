@@ -18,7 +18,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
             |___/|_|                                                                                                                  
 */
 
-contract AuctionCrypto is ERC721URIStorage {
+contract OlyCrypto is ERC721URIStorage {
     using SafeMath for uint256;
 
     address public owner;
@@ -159,9 +159,9 @@ contract AuctionCrypto is ERC721URIStorage {
     }
 
     function createToken(string memory metadata, string memory name, 
-        uint256 initValue, uint256 tokenId) public {
+        uint256 initValue) public {
 
-        uint256 newTokenId = tokenId;
+        uint256 newTokenId = totalSupply;
         string memory tokenURI = metadata;
 
         tokensCreated[newTokenId] = Token(newTokenId, name, initValue, tokenURI, true, 0);
